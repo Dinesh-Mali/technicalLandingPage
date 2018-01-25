@@ -1,0 +1,68 @@
+html{
+    height: 100%;
+}
+
+.navbar-default .navbar-brand{
+    color: black;
+}
+body{
+    background: url("https://images.unsplash.com/photo-1491472253230-a044054ca35f?auto=format&fit=crop&w=763&q=80");
+    background-position: center;
+    background-size: cover;
+    font-family: catamaran;
+}
+.fa-square-o , .fa-twitter{
+    color: grey;
+}
+.slogan{
+    color: navajowhite;
+    font-family: 'Merriweather', serif;
+}
+.center{
+    text-align: center;
+    padding-top: 8%;
+}
+#login{
+    width: 250px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 14px 14px 0;
+}
+.social-buttons{
+    margin: 5px auto;
+    padding-left: 15px;
+}
+.btn-fb{
+    color: #fff;
+    background-color: #3b599d;
+    margin-right: 15px
+}
+
+.btn-tw{
+    color: #fff;
+    background-color: #55acee;
+}
+
+.btn-fb:hover{
+    color: #fff;
+    background-color: #405ebc;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color: #405ebc;
+}
+/*    media queries*/
+@media(max-width:768px){
+    .slogan{
+        background-color: rgba(50,50,50,0.6);
+    }
+    .fa-twitter{
+        color: navajowhite;
+        background-color: rgba(50,50,50,0.6);
+        
+    }
+}
+@media(min-width:768px){
+    .fa-square-o{
+        color: navajowhite;
+    }
+}
